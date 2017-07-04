@@ -107,7 +107,7 @@ class View {
           $(".container").append(`<div id="yWin" class="text-center">Sparky, has won!</div>`);
         }
       }
-      if (this.game.isOver()) {
+      else if (this.game.isOver()) {
         $(".ttt").hide();
         $(".container").append("<h1>:( NO ONE WINS</h1>");
       }
